@@ -1,7 +1,7 @@
 # SharedStorage
 Handle Shared Preference easily.
 
-    implementation 'com.github.Sourav242:SharedStorage:Tag'
+    implementation 'com.github.Sourav242:SharedStorage:1.0'
     
     SharedPreferenceStorage.setValue(context, key, value);
     SharedPreferenceStorage.setValue(context, Map<String, <T>>);
