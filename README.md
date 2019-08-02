@@ -8,7 +8,7 @@ Handle Shared Preference easily.
     SharedPreferenceStorage.setValue(context, GROUP_TAG, key, value);
     
     SharedPreferenceStorage.getValue(context, key, defaultValue);
-    SharedPreferenceStorage.setValue(context, GROUP_TAG, key, defaultValue);
+    SharedPreferenceStorage.getValue(context, GROUP_TAG, key, defaultValue);
     
     SharedPreferenceStorage.clearSharedPreferences(context);
     SharedPreferenceStorage.clearSharedPreferences(context, GROUP_TAGS[]);
