@@ -1,6 +1,15 @@
 # SharedStorage
 Handle Shared Preference easily.
 
+    
+    allprojects {
+        repositories {
+            jcenter()
+            maven { url 'https://jitpack.io' }
+            ...
+        }
+    }
+    
     implementation 'com.github.Sourav242:SharedStorage:1.0'
     
     SharedPreferenceStorage.setValue(context, key, value);
